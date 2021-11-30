@@ -3,7 +3,7 @@ let seconds = 0
 let Pulsations = 0
 input.onButtonPressed(Button.A, function () {
     démarrage = false
-    seconds += 1
+    seconds = 15
     basic.showNumber(seconds)
 })
 input.onButtonPressed(Button.B, function () {
